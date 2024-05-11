@@ -1,0 +1,116 @@
+.sidebarContainer{
+    padding: 2vh 2vw;
+    border: solid 1px rgba(206, 206, 206, 0.387);
+    border-radius: 20px;
+    width: 14vw;
+    text-align: center;
+    justify-content: center;
+    background-color: #1e1e1f;
+    
+    margin: auto 0;
+    color: #f1f1f1;
+}
+
+.sidebarContainer *{
+    background-color: inherit;
+}
+
+.topHalf{
+    display: flex;
+    flex-direction: column;
+
+}
+.profilePicContainer{
+    width: 17vmin;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 30px auto;
+    height: 15vmin;
+    border: solid 2px rgba(157, 157, 157, 0.488);
+}
+.profilePic{
+    object-fit:cover;
+    width: 100%;
+    height: auto;
+}
+.name{
+    font-size: 2.6vmin;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+.designation{
+    background-color:#2b2b2c;
+    font-weight: 400;
+    font-size: 1.5vmin;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0.7vmin 0;
+    margin: 20px auto;
+}
+
+hr{
+    border-color: #000000;
+}
+
+.emailContainer, .homeContainer, .phoneContainer, .currentLocationContainer{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    
+}
+.emailIcon, .phoneIcon, .homeIcon, .currentLocationIcon{
+    width: 10%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 1vmin 1.4vmin;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-right: 1vw;
+}
+.emailIcon img, .phoneIcon img, .homeIcon img, .currentLocationIcon img{
+    width: 100%;
+    height: auto;
+}
+
+
+.subBlock{
+    flex-direction: column;
+    text-align: left;
+    width: 90%;
+    padding: 0 1vw 0 0;
+    overflow: hidden;
+    
+}
+.emailTitle, .emailValue, .phoneTitle, .phoneValue, .homeTitle, .homeValue, .currentLocationTitle, .currentLocationValue{
+    font-size: 1.5vmin;
+    
+}
+.emailTitle, .phoneTitle, .currentLocationTitle, .homeTitle{
+    color: #727272;
+}
+.emailValue, .currentLocationValue, .homeValue, .phoneValue{
+    text-decoration: none;
+    text-overflow: ellipsis;
+    color: rgb(244, 244, 244);
+    
+}
+
+.contactContainer{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+}
+.linkedin, .gmail, .github, .instagram{
+    width: 12%;
+    height: 100%;
+    overflow: hidden;
+    /* border-radius: 10px;
+    padding: 1vmin 1.4vmin; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    margin-right: 0.5vw;
+}
+.linkedin img, .gmail img, .github img, .instagram img{
+    width: 100%;
+    height: auto;
+}
